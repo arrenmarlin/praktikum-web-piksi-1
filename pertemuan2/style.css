@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: poppins;
+    font-size: 14px;
+    text-align: center;
+}
+
+.nav-item:hover {
+    text-decoration: none;
+    color: aqua;
+    background-color: blue;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    background-color: #9c85ff;
+    box-shadow: 5px 5px 1px #9c85ff, 5px 5px 20px #9c85ff, 5px 5px 30px #9c85ff;
+    transform: scale(1.2);
+}
+
+.footer {
+    background-color: #ff6868;
+}
+
+.imgcontent {
+    max-width: 500px;
+}
