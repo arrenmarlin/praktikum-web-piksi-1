@@ -1,0 +1,45 @@
+/*Universal CSS reset*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/*Buat navbar*/
+.nav-link{
+    color:black;
+    text-shadow: 0 0 10px #ffffff;
+    background-color: #8ce4ff;
+    box-shadow: 1 1 5px #31322f, 1 1 10px #31322f, 1 1 20px #31322f;
+    border-radius: 00px 10px 00px 10px;
+    border-style: solid;
+    border-color: #8b8b8b;
+    cursor:pointer;
+}
+
+.nav-link:hover{
+    color: #00ad00;
+    background-color: #8ce4ff;
+    box-shadow: 5px 5px 10px #7af776, 5px 5px 20px#7af776, 5px 5px 30px#7af776;
+    transform: scale(1.2);
+}
+
+.text-center {
+    text-align: center;
+  }
+
+/*CSS tabel*/
+.table {
+    margin: auto;
+    width: 50% !important; 
+ }
+
+.table1{
+    margin: auto;
+    width: 250px
+}
