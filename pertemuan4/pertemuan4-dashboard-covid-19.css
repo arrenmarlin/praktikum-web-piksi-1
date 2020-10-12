@@ -54,7 +54,7 @@ body {
 
 @media (max-width: 400px) {
     body {
-        font-size: 12px;
+        font-size: 13px;
         background-image: url('img/rs-small.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;
