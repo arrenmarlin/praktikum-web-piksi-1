@@ -44,16 +44,20 @@ a:hover {
     width: 250px
 }
 
-@media (max-width: 400px) {
-    body {
-        font-size: 12px;
-    }
-}
-
 body {
     background-image: url('img/rs.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    
+
+}
+
+@media (max-width: 400px) {
+    body {
+        font-size: 12px;
+        background-image: url('img/rs-small.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
 }
