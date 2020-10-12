@@ -49,3 +49,11 @@ a:hover {
         font-size: 12px;
     }
 }
+
+body {
+    background-image: url('img/rs.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
