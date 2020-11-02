@@ -31,7 +31,7 @@
         <div class="nav justify-content-center menu">
             <a class="navbar-brand" href="#">
                 <img src="img/logo.png" width="30" height="30" alt="">
-              </a>
+            </a>
             <div id="nav-atas-logo" class="m-2">
                 <div id="nav-atas-logo-tulisan">
                     <p>Dashboard COVID-19 Indonesia</p>
@@ -39,16 +39,17 @@
             </div>
             <ul class="nav justify-content-center menu ml-2" id="nav-atas-menu">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" onClick="window.location.reload()">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Kasus</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Bantuan Sosial</a>
+                    <a class="nav-link" href="https://pikobar.jabarprov.go.id/" target="_blank">Bantuan Sosial</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Donasi</a>
+                    <a class="nav-link" href="https://kitabisa.com/campaign/melawancoronavirus"
+                        target="_blank">Donasi</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Kontak</a>
@@ -66,125 +67,178 @@
             <h1>Dashboard Statistik Kasus COVID-19 Indonesia</h1>
             <small>Update Terakhir: Senin, 2 Nov 2020</small>
         </header>
-        <section id="konten-rangkuman-kasus">
 
-            <!--Bagian total konfirmasi-->
-            <div class=>
-                <h4>Total terkonfirmasi</h4>
+        <!--Bagian total konfirmasi-->
+        <div class=>
+            <h4>Total terkonfirmasi</h4>
 
-                <!--Tabel konfirmasi-->
+            <!--Tabel konfirmasi-->
 
-                <table class="table text-center justify-content-center">
-                    <tr class="table-active">
-                        <th>Daerah</th>
-                        <th>Kasus</th>
-                        <th>Sembuh</th>
-                    </tr>
+            <table class="table text-center justify-content-center">
+                <tr class="table-active">
+                    <th>Daerah</th>
+                    <th>Kasus</th>
+                    <th>Sembuh</th>
+                </tr>
 
-                    <tr>
-                        <td class="table-dark">Jakarta</td>
-                        <td class="table-danger">106.000</td>
-                        <td class="table-success">94.726</td>
-                    </tr>
-                    <tr>
-                        <td class="table-dark">Jawa Barat</td>
-                        <td class="table-danger">36.583</td>
-                        <td class="table-success">26.282</td>
-                    </tr>
+                <tr>
+                    <td class="table-dark">Jakarta</td>
+                    <td class="table-danger">106.000</td>
+                    <td class="table-success">94.726</td>
+                </tr>
+                <tr>
+                    <td class="table-dark">Jawa Barat</td>
+                    <td class="table-danger">36.583</td>
+                    <td class="table-success">26.282</td>
+                </tr>
 
-                    <tr>
-                        <td class="table-dark">Jawa Tengah</td>
-                        <td class="table-danger">33.912</td>
-                        <td class="table-success">28.094</td>
-                    </tr>
+                <tr>
+                    <td class="table-dark">Jawa Tengah</td>
+                    <td class="table-danger">33.912</td>
+                    <td class="table-success">28.094</td>
+                </tr>
 
-                    <tr>
-                        <td class="table-dark">Jawa Timur</td>
-                        <td class="table-danger">52.718</td>
-                        <td class="table-success">46.701</td>
-                    </tr>
+                <tr>
+                    <td class="table-dark">Jawa Timur</td>
+                    <td class="table-danger">52.718</td>
+                    <td class="table-success">46.701</td>
+                </tr>
 
-                    <tr>
-                        <td class="table-dark">Sulawesi Selatan</td>
-                        <td class="table-danger">18.370</td>
-                        <td class="table-success">16.551</td>
-                    </tr>
+                <tr>
+                    <td class="table-dark">Sulawesi Selatan</td>
+                    <td class="table-danger">18.370</td>
+                    <td class="table-success">16.551</td>
+                </tr>
 
-                    <tr>
-                        <td class="table-dark">Sumatra Utara</td>
-                        <td class="table-danger">13.198</td>
-                        <td class="table-success">10,778</td>
-                    </tr>
+                <tr>
+                    <td class="table-dark">Sumatra Utara</td>
+                    <td class="table-danger">13.198</td>
+                    <td class="table-success">10,778</td>
+                </tr>
 
-                    <tr>
-                        <td class="table-dark">Bali</td>
-                        <td class="table-danger">11.821</td>
-                        <td class="table-success">10.681</td>
-                    </tr>
+                <tr>
+                    <td class="table-dark">Bali</td>
+                    <td class="table-danger">11.821</td>
+                    <td class="table-success">10.681</td>
+                </tr>
 
-                </table>
-                <!--Akhir tabel konfirmasi-->
+            </table>
+            <!--Akhir tabel konfirmasi-->
 
-            </div>
-
-<div class="container row">
-            <!--Bagian isolasi/perawatan-->
-        <div class="col-md">
-            <div class="mt-3 ">
-                <h4>Isolasi / dalam perawatan</h4>
-
-                <!--Tabel isolasi/perawatan-->
-                <table class="table">
-                    <tr class="table-active">
-                        <th>Dalam perawatan</th>
-                    </tr>
-                    <tr class="table-warning">
-                        <td>55.792</td>
-                    </tr>
-                </table>
-                <!--Akhir tabel isolasi-->
-            </div>
         </div>
-
-            <!--Bagian selesai isolasi/perawatan-->
-        <div class="col-md">    
-            <div class="mt-3">
-                <h4>Selesai isolasi / dalam perawatan</h4>
-
-                <!--Tabel selesai isolasi/perawatan-->
-                <table class="table">
-                    <tr class="table-active">
-                        <th>Selesai Isolasi</th>
-                    </tr>
-                    <tr class="table-success">
-                        <td>345.566</td>
-                    </tr>
-                </table>
-                <!--Akhir tabel isolasi-->
-            </div>
-        </div>
-
-        <div class="col-md">
-            <!--Bagian meninggal-->
-            <div class="mt-3">
-                <h4>Meninggal</h4>
-
-                <!--Tabel meninggal-->
-                <table class="table">
-                    <tr class="table-active">
-                        <th>Meninggal</th>
-                    </tr>
-                    <tr class="table-danger">
-                        <td>14.044</td>
-                    </tr>
-                </table>
-                <!--Akhir tabel meninggal-->
-
-            </div>
-        </div>    
-        </section>
     </div>
-</div>
+
+    <div class="container row text-center ml-2 justify-content-center mt-2">
+        <!--Bagian isolasi/perawatan-->
+        <div class="col-md m-4">
+            <div class="card bg-warning mb-3" style="max-width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Dalam perawatan</h5>
+                    <p class="card-text">55.792</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Bagian selesai isolasi/perawatan-->
+        <div class="col-md m-4">
+            <div class="card bg-success mb-3" style="max-width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Selesai perawatan</h5>
+                    <p class="card-text">55.792</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Bagian meninggal-->
+        <div class="col-md m-4">
+            <div class="card bg-danger mb-3" style="max-width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Meninggal</h5>
+                    <p class="card-text">14.044</p>
+                </div>
+            </div>
+        </div>
+    </div class="">
+
+    <script>
+        function prosesPerhitungan() {
+
+            console.log("Fungsi prosesPerhitungan() dipanggil");
+            var j = document.getElementById("input-j").value;
+            var t = document.getElementById("input-t").value;
+            var ptj = t / j * 100;
+            document.getElementById("output-ptj").textContent = ptj + "" + "%";
+
+            var k = ptj;
+            if (k <= 30) {
+                k = " AMAN"
+            } else if (k <= 70 && k > 30) {
+                k = " WASPADA"
+            } else if (k > 70) {
+                k = " DARURAT"
+            }
+
+            document.getElementById("output-k").textContent = k;
+
+        }
+    </script>
+
+    <div class="text-center">
+        <h2>Menghitung Persentase Keterisian Ranjang di Rumah Sakit Ketika Covid-19</h2>
+    </div>
+    <div class="container text-center" style="width: 50%;">
+        <form>
+            <div class="form-group">
+                <label for="formGroupExampleInput">Jumlah total ranjang</label>
+                <input type="string" class="form-control text-center" id="input-j" placeholder="Angka (contoh: 69)">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2">Jumlah total ranjang yang sudah terisi</label>
+                <input type="string" class="form-control text-center" id="input-t" placeholder="Angka (contoh: 69)">
+            </div>
+            <div>
+                <input type="button" id="input-button" value="Kalkulasi Keterisian Ranjang"
+                    onclick="prosesPerhitungan()">
+            </div>
+        </form>
+    </div>
+    <div class="table text-center justify-content-center mt-3">
+        <table class="table-warning">
+            <tr>
+                <td>Persentase keterisian</td>
+                <td>
+                    <p id="output-ptj">?</p>
+                </td>
+            </tr>
+            <tr>
+                <td>Kondisi</td>
+                <td>
+                    <p id="output-k">?</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div class="jumbotron mt-4 yellow row">
+        <div class="col">
+            <img class="img" src="img/graph.jpeg" width="700">
+        </div>
+        <div class="col">
+            <h2>Physical Distancing</h2>
+            <p>COVID-19 menyebar dengan cepat. Orang dapat terinfeksi tanpa menunjukkan gejala, namun tetap dapat
+                menyebarkannya ke orang lain.
+                <br>
+                Jika kita tidak melakukan upaya pencegahan berupa menghindari keramaian, jumlah orang terinfeksi akan meledak dan fasilitas layanan kesehatan akan kewalahan sehingga banyak kasus akan tidak tertangani.
+                <br>
+                <br>
+                Physical distancing akan mengurangi laju penularan dan memungkinkan pasien terinfeksi untuk ditangani hingga sembuh, seperti di grafik terlampir.</p>
+        </div>
+    </div>
+
+
 
     <!-- Bagian footer dari dashboard -->
     <footer id="footer" class="text-center">
